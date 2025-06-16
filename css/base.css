@@ -1,0 +1,17 @@
+/** 
+navigation style
+**/
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #efefef;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 10px;
+}

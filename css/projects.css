@@ -1,0 +1,32 @@
+.projects {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+#project-elements {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+.project {
+  background-color: whilte;
+  padding: 30px;
+  margin-bottom: 25px;
+  box-shadow: 5px 5px gray;
+  color: black;
+  border-radius: 10px;
+}
+.project h2 {
+  color: blue;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.project p {
+  margin-bottom: 10px;
+}
+.project a {
+  /* color: white; */
+  text-decoration: none;
+  margin-right: 10px;
+}

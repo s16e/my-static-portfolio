@@ -1,0 +1,42 @@
+/**
+Home Style Section
+**/
+#home {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  height: 100vh;
+  margin: auto;
+}
+
+#home h1 {
+  font-size: 45px;
+}
+
+#home h1 span {
+  color: blue;
+}
+#home h4 {
+  font-size: 18px;
+}
+#home img {
+  width: 300px;
+  height: 350px;
+  border-radius: 50%;
+}
+#home .project-btn {
+  background-color: blue;
+  color: #ffffff;
+  border: none;
+}
+#home .resume-btn {
+  border: 1px solid blue;
+  background-color: white;
+  color: blue;
+}
+#home .btn {
+  padding: 10px 15px;
+  border-radius: 10px;
+}
